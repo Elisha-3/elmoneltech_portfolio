@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+  --card: 0 0% 98%;
+  --card-foreground: 222 47% 11%;
+  --primary: 161 100% 45%;
+  --primary-foreground: 0 0% 0%;
+  --secondary: 210 40% 96%;
+  --secondary-foreground: 222 47% 11%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
+  --accent: 161 100% 45%;
+  --accent-foreground: 0 0% 0%;
+  --border: 214 32% 91%;
+  --ring: 161 100% 45%;
+  --radius: 0.625rem;
+}
+
+.dark {
+  --background: 222 47% 5%;
+  --foreground: 210 40% 96%;
+  --card: 222 47% 8%;
+  --card-foreground: 210 40% 96%;
+  --primary: 161 100% 45%;
+  --primary-foreground: 0 0% 0%;
+  --secondary: 217 33% 17%;
+  --secondary-foreground: 210 40% 96%;
+  --muted: 217 33% 17%;
+  --muted-foreground: 215 20% 65%;
+  --accent: 161 100% 45%;
+  --accent-foreground: 0 0% 0%;
+  --border: 217 33% 17%;
+  --ring: 161 100% 45%;
+}
+
+@layer base {
+  * { @apply border-border; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { @apply bg-background text-foreground font-sans antialiased; }
+}
+
+@layer utilities {
+  .font-display { font-family: 'Syne', sans-serif; }
+  .font-mono { font-family: 'JetBrains Mono', monospace; }
+}

@@ -1,0 +1,169 @@
+{
+  "personal": {
+    "name": "Elisha Keanche",
+    "title": "Full-Stack Developer & UI/UX Designer",
+    "greeting": "Hello, I'm",
+    "tagline": "Building production-grade web systems that serve real users across Kenya and beyond.",
+    "specializations": ["Python / Flask", "PHP / Laravel", "React", "MySQL / PostgreSQL"],
+    "email": "keancheelisha3@gmail.com",
+    "github": "https://github.com/Elisha-3",
+    "linkedin": "https://www.linkedin.com/in/keanche-elisha-329284158",
+    "location": "Nairobi, Kenya",
+    "availability": "Open to full-time & select freelance",
+    "copyright": "© 2025 Elisha Keanche / ElmonelTech. All rights reserved.",
+    "phone": "+254 706 210 521",
+    "cv": "/cv/ELISHA_CV.pdf"
+  },
+  "navigation": [
+    { "name": "Entrance", "href": "#entrance" },
+    { "name": "About", "href": "#about" },
+    { "name": "Skills", "href": "#skills" },
+    { "name": "Experience", "href": "#experience" },
+    { "name": "Projects", "href": "#projects" },
+    { "name": "Contact", "href": "#contact" }
+  ],
+  "about": {
+    "sectionTitle": "About Me",
+    "heading": "Building real-world systems that matter",
+    "paragraphs": [
+      "I'm a full-stack developer based in Nairobi, Kenya, specializing in production-grade web systems.",
+      "I've shipped 7+ live platforms spanning ERP, LMS, talent marketplaces, booking systems, fintech, and data tools.",
+      "I bring both engineering depth and design sensibility to every project — from database architecture to polished UIs."
+    ],
+    "highlights": ["production-grade web systems", "7+ live platforms", "engineering depth"],
+    "stats": [
+      { "value": "15+", "label": "Projects Shipped" },
+      { "value": "7+", "label": "Live Platforms" },
+      { "value": "4+", "label": "Years Building" },
+      { "value": "85%", "label": "ML Accuracy" }
+    ]
+  },
+  "skills": {
+    "sectionTitle": "Skills",
+    "heading": "Technologies I Work With",
+    "categories": [
+      {
+        "title": "Backend & Systems",
+        "skills": ["Python & Flask", "PHP & Laravel", "MySQL / PostgreSQL", "REST APIs & Firebase", "Authentication & RBAC"]
+      },
+      {
+        "title": "Frontend & UI",
+        "skills": ["HTML5 / CSS3", "JavaScript (ES6+)", "React", "Bootstrap 5 & Tailwind CSS", "Chart.js"]
+      },
+      {
+        "title": "Data & ML",
+        "skills": ["Machine Learning", "Pandas & NumPy", "Scikit-learn", "Data Visualization", "Linear Regression"]
+      },
+      {
+        "title": "Tools & Platforms",
+        "skills": ["Git & GitHub", "WordPress & CMS", "UI/UX Design", "Render & Netlify", "Firebase"]
+      }
+    ]
+  },
+  "experience": {
+    "sectionTitle": "Experience",
+    "heading": "My Professional Journey",
+    "items": [
+      {
+        "type": "work",
+        "title": "Full-Stack Developer",
+        "company": "Oracom Group / ODS",
+        "period": "2024 – Present",
+        "description": [
+          "Architected ODSERP — full ERP with Accounting, HRM, CRM, POS & Project Management",
+          "Built ODSAlma, a Learning & Alumni Management System for academic institutions",
+          "Delivered ODSAITECH corporate platform and Digitally Fit News CMS — all live in production"
+        ]
+      },
+      {
+        "type": "work",
+        "title": "Full-Stack Developer",
+        "company": "Talents-Optimized & Sanibook.ke",
+        "period": "2023 – Present",
+        "description": [
+          "Built Talents-Optimized — Laravel talent marketplace with smart candidate matching",
+          "Developed Sanibook.ke — Kenya service-booking platform with real-time slot management"
+        ]
+      },
+      {
+        "type": "work",
+        "title": "Freelance Developer",
+        "company": "Various Clients — Nairobi, Kenya",
+        "period": "2022 – 2024",
+        "description": [
+          "Delivered 10+ projects: e-commerce, civic portals, dashboards & ML-powered tools",
+          "Clients ranged from local businesses to government institutions across Kenya"
+        ]
+      },
+      {
+        "type": "education",
+        "title": "UI/UX & Frontend Development",
+        "company": "Academic & Personal Projects",
+        "period": "2021 – 2022",
+        "description": [
+          "Built React storefronts and interactive data visualization dashboards",
+          "Established strong foundation in UX design principles and responsive interfaces"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "sectionTitle": "Projects",
+    "heading": "Featured Work",
+    "items": [
+      {
+        "title": "ODSERP",
+        "description": "Comprehensive ERP covering Accounting, HRM, CRM, POS, and Project Management with role-based access control for organizations.",
+        "tags": ["Full-Stack", "ERP", "HRM", "CRM", "POS"],
+        "featured": true,
+        "github": "",
+        "demo": "https://odserp.com"
+      },
+      {
+        "title": "ODSAlma — LMS",
+        "description": "Full-featured Learning & Alumni Management System for student records, course management, and institutional reporting.",
+        "tags": ["LMS", "Student Mgmt", "Alumni Portal", "Flask"],
+        "featured": true,
+        "github": "",
+        "demo": "https://odsalma.com"
+      },
+      {
+        "title": "Talents-Optimized",
+        "description": "Laravel-powered talent marketplace with smart candidate matching, structured profiles, and end-to-end recruitment workflow.",
+        "tags": ["Laravel", "PHP", "MySQL", "Marketplace"],
+        "featured": true,
+        "github": "",
+        "demo": "https://talents-optimized.com"
+      },
+      {
+        "title": "Sanibook.ke",
+        "description": "Kenya service-booking platform with real-time slot availability, customer-facing scheduling, and provider dashboards.",
+        "tags": ["Booking Engine", "Real-time", "Full-Stack"],
+        "featured": false,
+        "github": "",
+        "demo": "http://dev.sanibook.ke/"
+      },
+      {
+        "title": "Financial Management System",
+        "description": "Robust FMS for tracking budgets, expenses, revenues, and generating audit-ready financial reports with governance controls.",
+        "tags": ["Fintech", "Flask", "MySQL", "Reporting"],
+        "featured": false,
+        "github": "",
+        "demo": "https://fms.digitallyfit.top/"
+      },
+      {
+        "title": "Toi Shop — E-Commerce",
+        "description": "Secure e-commerce platform with cart, checkout, admin dashboard, and analytics. 500+ transactions in first month.",
+        "tags": ["Flask", "MySQL", "Bootstrap", "Payments"],
+        "featured": false,
+        "github": "https://github.com/Elisha-3/Toi-Shop",
+        "demo": "https://toi-shop-main.onrender.com/"
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Contact",
+    "heading": "Let's Work Together",
+    "description": "Open to full-time roles and select freelance work. Whether you need a robust web system, polished UI, or a custom data tool — let's talk!"
+  }
+}
