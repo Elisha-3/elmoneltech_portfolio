@@ -239,7 +239,8 @@ export function ReviewsSection() {
           <p style={{ color: '#64748b', fontSize: '16px', marginTop: '10px' }}>Real feedback from people I've built for.</p>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '320px 1fr', gap: '36px', alignItems: 'start' }}>
+        <style>{`@media (max-width: 768px) { .reviews-grid { grid-template-columns: 1fr !important; } }`}</style>
+        <div className="reviews-grid" style={{ display: 'grid', gridTemplateColumns: '320px 1fr', gap: '36px', alignItems: 'start' }}>
 
           {/* Left: aggregate + form */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>

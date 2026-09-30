@@ -1,169 +1,322 @@
 {
   "personal": {
     "name": "Elisha Keanche",
-    "title": "Full-Stack Developer & UI/UX Designer",
-    "greeting": "Hello, I'm",
-    "tagline": "Building production-grade web systems that serve real users across Kenya and beyond.",
-    "specializations": ["Python / Flask", "PHP / Laravel", "React", "MySQL / PostgreSQL"],
+    "title": "Full Stack Software Developer",
+    "roles": "Laravel · System Architecture · DevOps",
+    "tagline": "I build enterprise systems that replace costly third-party software with fully owned, automated platforms — 8 in production across ERP, finance, e-commerce, media, education and investments.",
     "email": "keancheelisha3@gmail.com",
-    "github": "https://github.com/Elisha-3",
-    "linkedin": "https://www.linkedin.com/in/keanche-elisha-329284158",
+    "phone": "+254 704 112 663",
     "location": "Nairobi, Kenya",
-    "availability": "Open to full-time & select freelance",
-    "copyright": "© 2025 Elisha Keanche / ElmonelTech. All rights reserved.",
-    "phone": "+254 706 210 521",
-    "cv": "/cv/ELISHA_CV.pdf"
+    "availability": "Open to full-time roles",
+    "github": "https://github.com/Elisha-3",
+    "githubHandle": "github.com/Elisha-3",
+    "linkedin": "https://www.linkedin.com/in/keanche-elisha-329284158",
+    "linkedinName": "Keanche Elisha",
+    "cv": "/cv/Elisha_Keanche_CV.pdf",
+    "brand": "ElmonelTech",
+    "footerBlurb": "Full Stack Software Developer based in Nairobi, Kenya — Laravel, system architecture & DevOps."
   },
-  "navigation": [
-    { "name": "Entrance", "href": "#entrance" },
-    { "name": "About", "href": "#about" },
-    { "name": "Skills", "href": "#skills" },
-    { "name": "Experience", "href": "#experience" },
-    { "name": "Projects", "href": "#projects" },
-    { "name": "Contact", "href": "#contact" }
+  "heroTech": ["PHP / Laravel", "Python / Flask", "React & Next.js", "MySQL / PostgreSQL", "Docker & Linux", "REST APIs"],
+  "heroStats": [
+    { "value": "8", "label": "Production Platforms" },
+    { "value": "3+", "label": "Years Experience" },
+    { "value": "1,000+", "label": "Active Users" },
+    { "value": "99.5%", "label": "Uptime" }
   ],
   "about": {
-    "sectionTitle": "About Me",
     "heading": "Building real-world systems that matter",
     "paragraphs": [
-      "I'm a full-stack developer based in Nairobi, Kenya, specializing in production-grade web systems.",
-      "I've shipped 7+ live platforms spanning ERP, LMS, talent marketplaces, booking systems, fintech, and data tools.",
-      "I bring both engineering depth and design sensibility to every project — from database architecture to polished UIs."
+      "I'm a full stack developer based in **Nairobi, Kenya**, currently at **Oracom Group**, where I design, build, deploy and maintain enterprise systems end to end — backend logic, frontend, database architecture, servers, security and performance.",
+      "I've delivered **8 production platforms across 6 business domains** — ERP, finance, e-commerce, media, education and investments. I specialise in replacing third-party customised software with **fully owned, automated systems** that cut recurring costs and run faster.",
+      "I also build multi-tenant **SaaS products** — a WhatsApp ordering platform, a hospital management system, a 17-module school ERP and a real-time property management platform."
     ],
-    "highlights": ["production-grade web systems", "7+ live platforms", "engineering depth"],
-    "stats": [
-      { "value": "15+", "label": "Projects Shipped" },
-      { "value": "7+", "label": "Live Platforms" },
-      { "value": "4+", "label": "Years Building" },
-      { "value": "85%", "label": "ML Accuracy" }
+    "impact": [
+      { "value": "40%", "label": "Lower software costs" },
+      { "value": "35%", "label": "Faster API responses" },
+      { "value": "60+", "label": "REST API endpoints" },
+      { "value": "15 min", "label": "Deploys (from 2 hrs)" }
     ]
   },
-  "skills": {
-    "sectionTitle": "Skills",
-    "heading": "Technologies I Work With",
-    "categories": [
-      {
-        "title": "Backend & Systems",
-        "skills": ["Python & Flask", "PHP & Laravel", "MySQL / PostgreSQL", "REST APIs & Firebase", "Authentication & RBAC"]
-      },
-      {
-        "title": "Frontend & UI",
-        "skills": ["HTML5 / CSS3", "JavaScript (ES6+)", "React", "Bootstrap 5 & Tailwind CSS", "Chart.js"]
-      },
-      {
-        "title": "Data & ML",
-        "skills": ["Machine Learning", "Pandas & NumPy", "Scikit-learn", "Data Visualization", "Linear Regression"]
-      },
-      {
-        "title": "Tools & Platforms",
-        "skills": ["Git & GitHub", "WordPress & CMS", "UI/UX Design", "Render & Netlify", "Firebase"]
-      }
-    ]
-  },
-  "experience": {
-    "sectionTitle": "Experience",
-    "heading": "My Professional Journey",
-    "items": [
-      {
-        "type": "work",
-        "title": "Full-Stack Developer",
-        "company": "Oracom Group / ODS",
-        "period": "2024 – Present",
-        "description": [
-          "Architected ODSERP — full ERP with Accounting, HRM, CRM, POS & Project Management",
-          "Built ODSAlma, a Learning & Alumni Management System for academic institutions",
-          "Delivered ODSAITECH corporate platform and Digitally Fit News CMS — all live in production"
-        ]
-      },
-      {
-        "type": "work",
-        "title": "Full-Stack Developer",
-        "company": "Talents-Optimized & Sanibook.ke",
-        "period": "2023 – Present",
-        "description": [
-          "Built Talents-Optimized — Laravel talent marketplace with smart candidate matching",
-          "Developed Sanibook.ke — Kenya service-booking platform with real-time slot management"
-        ]
-      },
-      {
-        "type": "work",
-        "title": "Freelance Developer",
-        "company": "Various Clients — Nairobi, Kenya",
-        "period": "2022 – 2024",
-        "description": [
-          "Delivered 10+ projects: e-commerce, civic portals, dashboards & ML-powered tools",
-          "Clients ranged from local businesses to government institutions across Kenya"
-        ]
-      },
-      {
-        "type": "education",
-        "title": "UI/UX & Frontend Development",
-        "company": "Academic & Personal Projects",
-        "period": "2021 – 2022",
-        "description": [
-          "Built React storefronts and interactive data visualization dashboards",
-          "Established strong foundation in UX design principles and responsive interfaces"
-        ]
-      }
-    ]
-  },
+  "skills": [
+    { "title": "Backend & APIs", "skills": ["PHP & Laravel (11–13)", "Python & Flask", "RESTful APIs", "MVC & modular architecture", "Queues & WebSockets (Reverb)"] },
+    { "title": "Frontend & UI", "skills": ["HTML5, CSS3 & JavaScript", "TypeScript & React (Inertia.js)", "Next.js", "Tailwind CSS & Bootstrap", "Responsive design & Chart.js"] },
+    { "title": "Databases & Data", "skills": ["MySQL — query tuning & indexing", "PostgreSQL", "Schema design", "Pandas & Scikit-learn", "Data dashboards & reporting"] },
+    { "title": "DevOps & Infrastructure", "skills": ["Docker", "Linux server management", "cPanel, SSL & domains", "Git & CI/CD fundamentals", "Postman, VS Code & Composer"] },
+    { "title": "Security", "skills": ["RBAC & multi-level approvals", "Authentication, SSO & 2FA", "SQL-injection prevention", "Input validation", "Server hardening"] },
+    { "title": "Payments & Integrations", "skills": ["M-Pesa Daraja (STK Push)", "Pesapal, DPO Pay & Paystack", "WhatsApp ordering bots", "SMS & USSD", "Multi-tenancy & subscription billing"] }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Developer",
+      "company": "Oracom Group · Nairobi, Kenya",
+      "period": "Nov 2025 – Present",
+      "type": "Full-time",
+      "icon": "🏢",
+      "summary": "Design, develop, deploy and maintain enterprise systems across the full stack: backend logic, frontend, database architecture, server management, security and performance.",
+      "points": [
+        "Architected and deployed 8 production platforms — including a 6-module ERP (ODSERP), a financial management system, 2 e-commerce/investment platforms, a CRM, a news portal and a radio web/app system — serving 1,000+ active users",
+        "Led migration from third-party customised applications to fully owned internal systems, cutting recurring software costs by 40% and eliminating 3+ vendor subscriptions",
+        "Designed Role-Based Access Control with 10+ user roles and multi-level approval workflows, reducing approval turnaround from 3 days to under 24 hours",
+        "Built 60+ RESTful API endpoints with Laravel and MySQL; indexing and query tuning improved average response times by 35%",
+        "Managed Docker-based deployments across 4 Linux servers and 10+ domains with SSL, reducing deployment time from 2 hours to 15 minutes",
+        "Hardened servers and optimised infrastructure, achieving 99.5% uptime across all production platforms"
+      ],
+      "tags": ["ODSERP", "Oracom ERP", "ODSAITECH", "DFT News", "Educare CRM", "BraceFM", "Meatsoko Shop", "Meatsoko Investments", "Talents-Optimized", "SaniBook"]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Modcom Institute of Technology · Nairobi",
+      "period": "Sep 2024 – Dec 2024",
+      "icon": "💻",
+      "points": [
+        "Built scalable front-end and back-end systems using Flask, MySQL and Bootstrap, reducing user-reported issues by 50%",
+        "Redesigned database schema architecture, boosting query speeds by 40%",
+        "Implemented advanced input validation and SQL-injection prevention, reducing vulnerability risk by 90%",
+        "Led code reviews and debugging sessions that lowered system errors by 30%",
+        "Integrated UI/UX designs that improved the experience for 5,000+ users"
+      ]
+    },
+    {
+      "title": "ICT Officer",
+      "company": "Ministry of Education · Nyamira",
+      "period": "Feb 2023 – Feb 2024",
+      "icon": "🏫",
+      "points": [
+        "Trained 200+ teachers in digital literacy, driving a 70% increase in tech-enabled instruction across 15 schools",
+        "Supported e-learning initiatives that expanded digital access for 5,000+ students",
+        "Administered SharePoint/OneDrive backup and content sharing for 50+ staff across 15 schools",
+        "Built 5 Excel performance dashboards tracking attendance and exam trends for 15 schools",
+        "Delivered proactive IT support and maintenance, cutting system downtime by 40%"
+      ]
+    },
+    {
+      "title": "IT Graduate Trainee",
+      "company": "Huduma Centre · Nyamira",
+      "period": "Apr 2021 – Aug 2021",
+      "icon": "🛠️",
+      "points": [
+        "Diagnosed and repaired LANs, UPS backup systems and IT infrastructure, reducing downtime by 50%",
+        "Performed routine upgrades and system maintenance, increasing service efficiency by 30%",
+        "Resolved 200+ client support issues with a 95% first-contact resolution rate"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "BSc. Mathematics and Computer Science",
+      "school": "Taita Taveta University",
+      "period": "Sep 2017 – Sep 2022",
+      "detail": "Software Engineering, Web Development, Database Systems, Cloud Computing, Data Analytics"
+    },
+    {
+      "title": "Certificate in Software Development",
+      "school": "Modcom Institute of Technology",
+      "period": "Sep 2024 – Dec 2024"
+    },
+    {
+      "title": "Computer Hardware Basics",
+      "school": "Cisco Networking Academy",
+      "period": "2024"
+    }
+  ],
   "projects": {
-    "sectionTitle": "Projects",
-    "heading": "Featured Work",
+    "subheading": "8 production platforms across 6 business domains, multi-tenant SaaS products, and the projects that got me here.",
+    "featured": {
+      "title": "ODSERP — Enterprise Resource Planning System",
+      "desc": "A 6-module ERP covering Accounting, HRM, CRM, Point-of-Sale, Project Management and dynamic reporting dashboards — with role-based access control and multi-level approval workflows for multi-department organisations. Part of the move to fully owned internal systems that cut recurring software costs by 40%.",
+      "tags": ["ERP", "Laravel", "MySQL", "HRM", "CRM", "POS", "RBAC"],
+      "demo": "https://odserp.com",
+      "image": "/images/odserp.jpg"
+    },
+    "categories": [
+      { "id": "enterprise", "label": "Enterprise Platforms" },
+      { "id": "saas", "label": "SaaS Products" },
+      { "id": "other", "label": "Other Projects" }
+    ],
     "items": [
       {
-        "title": "ODSERP",
-        "description": "Comprehensive ERP covering Accounting, HRM, CRM, POS, and Project Management with role-based access control for organizations.",
-        "tags": ["Full-Stack", "ERP", "HRM", "CRM", "POS"],
-        "featured": true,
-        "github": "",
-        "demo": "https://odserp.com"
+        "title": "Oracom Group ERP",
+        "category": "enterprise",
+        "desc": "Oracom's internal ERP integrating HRM, Financial Management and Project Management, with automated financial tracking and reporting.",
+        "tags": ["HRM", "FMS", "PMS", "Laravel"],
+        "demo": "https://erp.oracomgroup.com",
+        "image": "/images/oracom-erp.jpg"
       },
       {
-        "title": "ODSAlma — LMS",
-        "description": "Full-featured Learning & Alumni Management System for student records, course management, and institutional reporting.",
-        "tags": ["LMS", "Student Mgmt", "Alumni Portal", "Flask"],
-        "featured": true,
-        "github": "",
-        "demo": "https://odsalma.com"
+        "title": "ODSAITECH Platform",
+        "category": "enterprise",
+        "desc": "Corporate platform for ODS AI.Tech, Oracom's AI engineering arm — bespoke AI systems, workflow automation and predictive models for growing businesses.",
+        "tags": ["Corporate", "CMS", "SEO"],
+        "demo": "https://odsaitech.com",
+        "image": "/images/odsai.jpg"
+      },
+      {
+        "title": "Digitally Fit News",
+        "category": "enterprise",
+        "desc": "Dynamic news and content publishing platform with category newsrooms, a breaking-news ticker, drafts and scheduled posts, and an editorial admin panel.",
+        "tags": ["News CMS", "Publishing", "SEO"],
+        "demo": "https://dftnews.com",
+        "image": "/images/dftnews-home.jpg"
+      },
+      {
+        "title": "Educare CRM",
+        "category": "enterprise",
+        "desc": "CRM for Educare International's study-abroad programme, managing 500+ student leads.",
+        "tags": ["CRM", "Lead Management"],
+        "demo": "https://educare-studyabroad.com/",
+        "image": "/images/educare.jpg"
+      },
+      {
+        "title": "BraceFM",
+        "category": "enterprise",
+        "desc": "Web and mobile radio streaming system — live station streaming, Android and iOS apps, plus blog, news, videos and gallery.",
+        "tags": ["Streaming", "Web + Mobile"],
+        "demo": "https://www.bracefm.com",
+        "image": "/images/bracefm.jpg"
+      },
+      {
+        "title": "Meatsoko E-commerce",
+        "category": "enterprise",
+        "desc": "Multi-vendor online store for Meatsoko Group processing 200+ orders a month, with vendor and affiliate zones, M-Pesa payments and order tracking.",
+        "tags": ["E-commerce", "Multi-vendor", "M-Pesa"],
+        "demo": "https://shop.meatsokogroup.com",
+        "image": "/images/meatsoko-shop.jpg"
+      },
+      {
+        "title": "Meatsoko Investments",
+        "category": "enterprise",
+        "desc": "Investment platform linked to the Meatsoko ecosystem — investors compare options, review financials and track holdings from a dashboard.",
+        "tags": ["Fintech", "Investments", "Dashboard"],
+        "demo": "https://investments.meatsokogroup.com",
+        "image": "/images/meatsoko-investments.jpg"
       },
       {
         "title": "Talents-Optimized",
-        "description": "Laravel-powered talent marketplace with smart candidate matching, structured profiles, and end-to-end recruitment workflow.",
-        "tags": ["Laravel", "PHP", "MySQL", "Marketplace"],
-        "featured": true,
-        "github": "",
-        "demo": "https://talents-optimized.com"
+        "category": "enterprise",
+        "desc": "Talent discovery and management platform — assessments, programmes and organisation analytics, with a Laravel API, React front end and Google SSO.",
+        "tags": ["Laravel", "React", "SSO"],
+        "demo": "https://talents-optimized.com",
+        "image": "/images/talents-optimized.jpg"
       },
       {
-        "title": "Sanibook.ke",
-        "description": "Kenya service-booking platform with real-time slot availability, customer-facing scheduling, and provider dashboards.",
-        "tags": ["Booking Engine", "Real-time", "Full-Stack"],
-        "featured": false,
-        "github": "",
-        "demo": "http://dev.sanibook.ke/"
+        "title": "SaniBook.ke",
+        "category": "enterprise",
+        "desc": "Event booking and management platform for Kenya's sanitation sector — and a knowledge hub that brings pilots, events and verified submissions together.",
+        "tags": ["Events", "Booking", "Knowledge Hub"],
+        "demo": "http://dev.sanibook.ke/",
+        "image": "/images/sanibook.jpg"
       },
       {
-        "title": "Financial Management System",
-        "description": "Robust FMS for tracking budgets, expenses, revenues, and generating audit-ready financial reports with governance controls.",
-        "tags": ["Fintech", "Flask", "MySQL", "Reporting"],
-        "featured": false,
-        "github": "",
-        "demo": "https://fms.digitallyfit.top/"
+        "title": "ODSAlma — Alumni Platform",
+        "category": "enterprise",
+        "desc": "Alumni platform where graduates sign up, submit documents for approval and join an exclusive community for networking and engagement.",
+        "tags": ["Alumni", "Community", "Approvals"],
+        "demo": "https://odsalma.com",
+        "image": "/images/odsalma.jpg"
+      },
+      {
+        "title": "WhatsCatalog",
+        "category": "saas",
+        "status": "In development",
+        "desc": "WhatsApp ordering platform for wholesalers: retailers find products, build a cart and pay by mobile money (Pesapal, DPO Pay) inside WhatsApp, with sales-agent handoff, multi-store SaaS plans and an operations API. First client rollout, for a pan-African distributor, is under way.",
+        "tags": ["Laravel", "WhatsApp", "Pesapal", "SaaS"],
+        "image": "/images/whatscatalog.jpg"
+      },
+      {
+        "title": "MedixaPro — Hospital Management",
+        "category": "saas",
+        "status": "Private repo",
+        "desc": "Multi-tenant hospital SaaS for Kenyan healthcare — patients, appointments, pharmacy, labs, wards, billing and SHA claims, M-Pesa STK Push, tiered plans with feature gating, and mandatory 2FA for admins.",
+        "tags": ["Laravel", "React", "Multi-tenant", "M-Pesa"],
+        "image": "/images/medixapro.jpg"
+      },
+      {
+        "title": "ModernSchool ERP",
+        "category": "saas",
+        "status": "Private repo",
+        "desc": "Multi-tenant school ERP with 17 modules — admissions, CBC academics, fees, staff & HR, hostel, transport, library, e-learning, online exams, biometric clocking and WhatsApp/SMS messaging.",
+        "tags": ["Laravel", "Multi-tenant", "CBC", "17 Modules"],
+        "image": "/images/modernschool-erp.jpg"
+      },
+      {
+        "title": "Client, Tender & Careers Portals",
+        "category": "saas",
+        "status": "In development",
+        "desc": "Digital platform for a Kenyan resources company — public website, client, tender and careers portals, and an admin console on one shared core: one login, a permission matrix, audit log and API. Invoicing with M-Pesa, Paystack and DPO Pay.",
+        "tags": ["TypeScript", "Node.js", "MySQL", "Payments"]
+      },
+      {
+        "title": "Boma Bora PMS",
+        "category": "saas",
+        "status": "In development",
+        "desc": "Real-time, multi-tenant property management SaaS for Kenyan landlords — rent via USSD, M-Pesa or card, GPS-stamped cash collection, video evidence for repairs and automatic KRA receipts.",
+        "tags": ["Laravel 12", "Next.js", "WebSockets", "USSD"],
+        "image": "/images/boma-bora-pms.jpg"
       },
       {
         "title": "Toi Shop — E-Commerce",
-        "description": "Secure e-commerce platform with cart, checkout, admin dashboard, and analytics. 500+ transactions in first month.",
-        "tags": ["Flask", "MySQL", "Bootstrap", "Payments"],
-        "featured": false,
+        "category": "other",
+        "desc": "Flask e-commerce shop with registration, cart, M-Pesa checkout and an admin dashboard with sales analytics — 500+ transactions in its first month.",
+        "tags": ["Flask", "MySQL", "M-Pesa"],
+        "demo": "https://toi-shop-main.onrender.com/",
         "github": "https://github.com/Elisha-3/Toi-Shop",
-        "demo": "https://toi-shop-main.onrender.com/"
+        "image": "/images/toi-shop.jpg"
+      },
+      {
+        "title": "House Price Predictor",
+        "category": "other",
+        "desc": "Linear-regression model that estimates house prices by county, area type and size, served through a Flask web app — 85% accuracy in validation.",
+        "tags": ["Python", "Scikit-learn", "Flask", "ML"],
+        "demo": "https://house-price-predictor-or7x.onrender.com",
+        "github": "https://github.com/Elisha-3/House_Price_Predictor",
+        "image": "/images/house-price-predictor.jpg"
+      },
+      {
+        "title": "Nyamira South Sub-County Website",
+        "category": "other",
+        "desc": "Responsive multi-page government services site serving 10,000+ residents, with resources, project updates and secure user accounts.",
+        "tags": ["HTML", "CSS", "JavaScript", "Gov"],
+        "demo": "https://nsubcounty.netlify.app/",
+        "github": "https://github.com/Elisha-3/subcounty",
+        "image": "/images/subcounty.jpg"
+      },
+      {
+        "title": "Survey Visualization Dashboard",
+        "category": "other",
+        "desc": "Upload survey responses from Excel into MySQL, filter them server-side and explore live Chart.js charts; export to Excel or PDF, with phone masking for non-admins.",
+        "tags": ["Flask", "Chart.js", "Pandas"],
+        "github": "https://github.com/Elisha-3/survey_oracom",
+        "image": "/images/data_visualization.png"
+      },
+      {
+        "title": "Smart Office Dashboard",
+        "category": "other",
+        "status": "Private repo",
+        "desc": "Flask/MySQL admin dashboard managing 8 departments, meeting calendars, visitors and notifications with full CRUD.",
+        "tags": ["Flask", "MySQL", "CRUD"],
+        "image": "/images/smart-office.jpg"
+      },
+      {
+        "title": "Mkulima Mdogo",
+        "category": "other",
+        "desc": "Digital marketplace connecting small-scale farmers directly with buyers — fewer middlemen, fresher and more affordable produce.",
+        "tags": ["Flask", "MySQL", "Marketplace"],
+        "demo": "https://mkulimamdogo.netlify.app/",
+        "github": "https://github.com/Elisha-3/mkulima-farm",
+        "image": "/images/mkulima.jpg"
+      },
+      {
+        "title": "School Website & CBC Portal",
+        "category": "other",
+        "status": "Private",
+        "desc": "Admissions, fees, results and CBC progress portal with SMS updates to 300+ parents.",
+        "tags": ["Education", "CBC", "SMS"]
       }
     ]
   },
   "contact": {
-    "sectionTitle": "Contact",
     "heading": "Let's Work Together",
-    "description": "Open to full-time roles and select freelance work. Whether you need a robust web system, polished UI, or a custom data tool — let's talk!"
+    "subheading": "Open to full-time roles. Let's build something great together.",
+    "blurb": "Building ERPs, multi-tenant SaaS, or in-house systems to replace costly third-party software? I'd love to hear about your team and the role."
   }
 }
