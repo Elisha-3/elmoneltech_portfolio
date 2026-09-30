@@ -95,6 +95,8 @@ function ReviewForm({ onSubmitted }: { onSubmitted: () => void }) {
     if (!name.trim())    { setError('Please enter your name.'); return }
     if (!message.trim()) { setError('Please write a short review.'); return }
 
+    if (!supabase) { setError('Reviews are temporarily unavailable.'); return }
+
     setLoading(true)
     setError('')
 
@@ -209,6 +211,7 @@ export function ReviewsSection() {
   const [expanded, setExpanded]   = useState<string | null>(null)
 
   async function load() {
+    if (!supabase) { setLoading(false); return }
     const { data } = await supabase
       .from('reviews')
       .select('*')
